@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+p,
+img,
+span {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+/* Global Width For Pages */
+
+.max-width-text-400 {
+  max-width: 400px;
+}
+
+.max-width-text-700 {
+  max-width: 700px;
+}
+
+.width-1205 {
+  width: 1205px;
+}
+
+.width-1280 {
+  width: 1280px;
+}
+
+.max-width-1205 {
+  max-width: 1205px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.max-width-1300-p-0-20 {
+  max-width: 1300px;
+  padding: 20px 20px;
+  margin: auto;
+}
+
+.max-width-1300-p-0-30 {
+  max-width: 1300px;
+  padding: 0 30px;
+  margin: auto;
+}
+
+.max-width-1300-p-0-40 {
+  max-width: 1300px;
+  padding: 0 40px;
+  margin: auto;
+}
+
+.max-width-1300-p-0-50 {
+  max-width: 1300px;
+  padding: 0 50px;
+  margin: auto;
+}
+
+.max-width-1300-p-0-60 {
+  max-width: 1300px;
+  padding: 0 60px;
+  margin: auto;
+}
+
+.max-width-1300-p-0-70 {
+  max-width: 1300px;
+  padding: 0 70px;
+  margin: auto;
+}
+
+.max-width-1300-p-0-80 {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.max-width-1300-p-0-90 {
+  max-width: 1300px;
+  padding: 0 90px;
+  margin: auto;
+}
+
+/* Global Height For Pages */
+
+.min-height-150vh {
+  min-height: 150vh;
+}
+
+.min-height-100vh {
+  min-height: 100vh;
+}
+
+.min-height-80vh {
+  min-height: 80vh;
+}
+
+.min-height-70vh {
+  min-height: 70vh;
+}
+
+.min-height-50vh {
+  min-height: 50vh;
+}
+
+.min-height-60vh {
+  min-height: 60vh;
+}
+
+.min-height-40vh {
+  min-height: 40vh;
+}
+
+.container-100 {
+  width: 100%;
+}
+
+/* Navigation */
+.navigation {
+  height: 90px;
+  line-height: 90px;
+}
+
+.main-navigation {
+  width: 100%;
+}
+
+.title h1 {
+  font-size: 32px;
+}
+
+.MobileNavigation {
+  display: none;
+}
+
+/* Pages */
+.transparent-style,
+.transparent-style-two {
+  border-width: 1px;
+  color: white;
+}
+.transparent-style-two:hover {
+  background-color: transparent;
+  border-color: #dc143c;
+  border-style: solid;
+  color: black;
+  border-width: 1px;
+  transition: 300ms;
+}
+
+.transparent-style:hover {
+  background-color: transparent;
+  border-color: #dc143c;
+  border-style: solid;
+  border-width: 1px;
+  transition: 300ms;
+}
+
+.left img {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.grp-cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.grp-cardss {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding: 150px 20px;
+}
+.cards {
+  min-height: 250px;
+  min-width: 340px;
+  border-radius: 24px;
+  background-color: #111827;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cardss {
+  min-height: 300px;
+  min-width: 500px;
+  border-radius: 24px;
+  background-color: #111827;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  gap: 1rem;
+}
+
+.app {
+  max-height: 130px;
+  max-width: 130px;
+}
+
+@media (max-width: 1215px) {
+  .Second {
+    min-height: 90vh;
+  }
+  .left img {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+  }
+  .grp-cards {
+    grid-template-columns: repeat(1, auto);
+  }
+  .cards {
+    min-height: 250px;
+    min-width: 730px;
+    border-radius: 24px;
+    background-color: #111827;
+    color: white;
+    padding: 10px;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1111px) {
+  .grp-cardss {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media (max-width: 768px) {
+  .MobileNavigation {
+    z-index: 9999;
+    font-size: 24px;
+    transition: 300ms;
+  }
+
+  .MobileNavigation .fa-bars-staggered {
+    transition: 300ms;
+  }
+
+  .NavRowList {
+    position: fixed;
+    height: 100%;
+    inset: 0 0 0 30%;
+    background-color: steelblue;
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+    transition: 300ms;
+  }
+
+  .NavRowListTwo {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+  .left img {
+    height: 350px;
+    width: 350px;
+    padding: 20px;
+  }
+  .cards {
+    min-height: 250px;
+    min-width: 530px;
+    border-radius: 24px;
+    background-color: #111827;
+    color: white;
+    padding: 10px;
+    gap: 1rem;
+  }
+}
+
+footer {
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a {
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 580px) {
+  .cards {
+    min-height: 250px;
+    min-width: 430px;
+    border-radius: 24px;
+    background-color: #111827;
+    color: white;
+    padding: 10px;
+    gap: 1rem;
+  }
+  .app {
+    height: 100px;
+    width: 100px;
+  }
+  .cardss {
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 24px;
+    background-color: #111827;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards {
+    min-height: 250px;
+    min-width: 330px;
+    border-radius: 24px;
+    background-color: #111827;
+    color: white;
+    padding: 10px;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .left img {
+    height: 270px;
+    width: 270px;
+    padding: 20px;
+  }
+  .Second {
+    min-height: 100vh;
+  }
+  .cards {
+    min-height: 250px;
+    min-width: 230px;
+    border-radius: 24px;
+    background-color: #111827;
+    color: white;
+    padding: 10px;
+    gap: 1rem;
+  }
+}
