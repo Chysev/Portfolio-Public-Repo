@@ -50,6 +50,10 @@ module.exports = {
       /* =================== */
       "320max": { max: "320px" },
       "320min": { min: "320px" },
+
+      /* =================== */
+      /* CUSTOM */
+      "460max": { max: "460px" },
     },
     colors: {
       backgroundgray: "#1f2937",
@@ -58,8 +62,11 @@ module.exports = {
 
       white: "#FFFFFF",
       black: "#0e0e23",
+      brown: "#964B00",
+      silver: "#c0c0c0",
+      blue: "#0e0e90",
       red: "#ff0000",
-      whitesmoke: "F5F5F5",
+      whitesmoke: "#F5F5F5",
       Hover: "#00afea",
 
       button: "#dc143c",

@@ -15,7 +15,7 @@ const Icons = () => {
     return (
         <Fragment>
             <h1 data-aos="fade-down" className='text-2xl font-medium'>Language and Tools</h1>
-            <div className='grid grid-cols-7 gap-2 380max:grid 380max:grid-cols-7'>
+            <div className='flex gap-2 460max:grid 460max:grid-cols-7'>
                 <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={VSCODE} alt="" />
                 <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={HTML} alt="" />
                 <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={CSS} alt="" />

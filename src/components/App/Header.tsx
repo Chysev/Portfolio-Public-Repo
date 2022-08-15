@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from 'react-router-dom'
 
 const Header = () => {
 
@@ -19,9 +20,9 @@ const Header = () => {
 
                 <nav data-visible="false" className={`flex NavRowList z-30 ${open ? '768max:translate-x-0' : '768max:translate-x-full'}`}>
                     <ul className="flex text-white gap-6 NavRowListTwo">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><Link className="hover:text-Hover hover:underline transition-all" to="/">Home</Link></li>
+                        <li><Link className="hover:text-Hover hover:underline transition-all" to="/projects">Projects</Link> </li>
+                        <li><Link className="hover:text-Hover hover:underline transition-all" to="/contact">Contact</Link></li>
                     </ul>
                 </nav>
             </div>

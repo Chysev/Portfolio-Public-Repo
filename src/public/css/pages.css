@@ -102,6 +102,10 @@ span {
   min-height: 150vh;
 }
 
+.min-height-110vh {
+  min-height: 110vh;
+}
+
 .min-height-100vh {
   min-height: 100vh;
 }
@@ -154,6 +158,14 @@ span {
   border-width: 1px;
   color: white;
 }
+
+.transparent-style:hover {
+  background-color: transparent;
+  border-color: #dc143c;
+  border-style: solid;
+  border-width: 1px;
+  transition: 300ms;
+}
 .transparent-style-two:hover {
   background-color: transparent;
   border-color: #dc143c;
@@ -163,11 +175,12 @@ span {
   transition: 300ms;
 }
 
-.transparent-style:hover {
+.transparent-style-three:hover {
   background-color: transparent;
   border-color: #dc143c;
   border-style: solid;
   border-width: 1px;
+  color: white;
   transition: 300ms;
 }
 
@@ -186,35 +199,68 @@ span {
   grid-template-columns: repeat(2, auto);
   padding: 150px 20px;
 }
-.cards {
-  min-height: 250px;
-  min-width: 340px;
+.cards,
+.cardss {
   border-radius: 24px;
   background-color: #111827;
   color: white;
   display: flex;
   flex-direction: column;
   padding: 10px;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
 }
 
+.cards {
+  min-height: 250px;
+  min-width: 340px;
+}
+
 .cardss {
-  min-height: 300px;
+  min-height: 400px;
   min-width: 500px;
-  border-radius: 24px;
-  background-color: #111827;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  align-items: center;
-  gap: 1rem;
 }
 
 .app {
   max-height: 130px;
   max-width: 130px;
+}
+
+form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  gap: 2rem;
+  height: 600px;
+  max-height: 600px;
+  width: 500px;
+  max-width: 500px;
+  border-radius: 12px;
+  margin: auto auto;
+}
+
+input,
+textarea {
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input {
+  height: 50px;
+  max-height: 50px;
+  width: 430px;
+  max-width: 430px;
+}
+
+textarea {
+  height: 230px;
+  max-height: 230px;
+  width: 430px;
+  max-width: 430px;
 }
 
 @media (max-width: 1215px) {
@@ -339,6 +385,16 @@ footer span a:hover {
     color: white;
     padding: 10px;
     gap: 1rem;
+  }
+  input {
+    height: 50px;
+    width: 330px;
+  }
+
+  textarea {
+    height: 230px;
+
+    width: 330px;
   }
 }
 
