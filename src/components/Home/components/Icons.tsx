@@ -16,17 +16,17 @@ const Icons = () => {
         <Fragment>
             <h1 data-aos="fade-down" className='text-2xl font-medium'>Language and Tools</h1>
             <div className='flex gap-2 460max:grid 460max:grid-cols-7'>
-                <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={VSCODE} alt="" />
-                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={HTML} alt="" />
-                <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={CSS} alt="" />
-                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={JS} alt="" />
-                <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={VUE} alt="" />
-                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={MONGO} alt="" />
-                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={SQL} alt="" />
-                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={NODEJS} alt="" />
-                <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={GITHUB} alt="" />
-                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={GIT} alt="" />
-                <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={TERMINAL} alt="" />
+                <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={VSCODE} alt="OpenSource Portfolio created by John Layda (Chysev)" />
+                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={HTML} alt="OpenSource Portfolio created by John Layda (Chysev)" />
+                <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={CSS} alt="OpenSource Portfolio created by John Layda (Chysev)" />
+                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={JS} alt="OpenSource Portfolio created by John Layda (Chysev)" />
+                <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={VUE} alt="OpenSource Portfolio created by John Layda (Chysev)" />
+                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={MONGO} alt="OpenSource Portfolio created by John Layda (Chysev)" />
+                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={SQL} alt="OpenSource Portfolio created by John Layda (Chysev)" />
+                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={NODEJS} alt="OpenSource Portfolio created by John Layda (Chysev)" />
+                <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={GITHUB} alt="OpenSource Portfolio created by John Layda (Chysev)" />
+                <img data-aos="fade-up" data-aos-duration="500" className="h-8 w-8" src={GIT} alt="OpenSource Portfolio created by John Layda (Chysev)" />
+                <img data-aos="fade-down" data-aos-duration="500" className="h-8 w-8" src={TERMINAL} alt="OpenSource Portfolio created by John Layda (Chysev)" />
             </div>
         </Fragment>
     )
