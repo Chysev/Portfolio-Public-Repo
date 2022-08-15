@@ -4,7 +4,7 @@ AOS.init();
 const FirstPage = () => {
     return (
         <div className="flex bg-backgroundgray 560max:bg-whitesmoke min-height-110vh">
-            <form data-aos="fade-down" data-aos-duration="500" className="justify-center bg-whitesmoke items-center" action="">
+            <form data-aos="fade-down" data-aos-duration="500" className="justify-center bg-whitesmoke items-center" action="/">
                 <h1 className="text-3xl font-semibold">Hello!</h1>
                 <div>
                     <input type="name" id="name" name="name" placeholder="Name Required" required />
