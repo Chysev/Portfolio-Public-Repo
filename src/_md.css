@@ -1,0 +1,25 @@
+.LineHeight {
+  line-height: 73px;
+}
+
+@media (max-width: 780px) {
+  .LineHeight {
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 640px) {
+  .LineHeight {
+    line-height: 55px;
+  }
+}
+
+@media (max-width: 560px) {
+  .LineHeight {
+    line-height: 50px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
